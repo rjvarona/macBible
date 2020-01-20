@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A5A40D523CF7C5E000DE02F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A40D423CF7C5E000DE02F /* AppDelegate.swift */; };
+		2A5A40D723CF7C5E000DE02F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A40D623CF7C5E000DE02F /* ViewController.swift */; };
+		2A5A40D923CF7C5E000DE02F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A40D823CF7C5E000DE02F /* Assets.xcassets */; };
+		2A5A40DC23CF7C5E000DE02F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A40DA23CF7C5E000DE02F /* Main.storyboard */; };
+		2A5A40E823CF7C5F000DE02F /* tewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A40E723CF7C5F000DE02F /* tewsTests.swift */; };
+		2A5A40F323CF7C5F000DE02F /* tewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A40F223CF7C5F000DE02F /* tewsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A5A40E423CF7C5F000DE02F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A5A40C923CF7C5E000DE02F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A5A40D023CF7C5E000DE02F;
+			remoteInfo = tews;
+		};
+		2A5A40EF23CF7C5F000DE02F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A5A40C923CF7C5E000DE02F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A5A40D023CF7C5E000DE02F;
+			remoteInfo = tews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A5A40D123CF7C5E000DE02F /* tews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5A40D423CF7C5E000DE02F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A5A40D623CF7C5E000DE02F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A5A40D823CF7C5E000DE02F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A5A40DB23CF7C5E000DE02F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A5A40DD23CF7C5E000DE02F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A5A40DE23CF7C5E000DE02F /* tews.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tews.entitlements; sourceTree = "<group>"; };
+		2A5A40E323CF7C5F000DE02F /* tewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5A40E723CF7C5F000DE02F /* tewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tewsTests.swift; sourceTree = "<group>"; };
+		2A5A40E923CF7C5F000DE02F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A5A40EE23CF7C5F000DE02F /* tewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5A40F223CF7C5F000DE02F /* tewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tewsUITests.swift; sourceTree = "<group>"; };
+		2A5A40F423CF7C5F000DE02F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A5A40CE23CF7C5E000DE02F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5A40E023CF7C5F000DE02F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5A40EB23CF7C5F000DE02F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A5A40C823CF7C5E000DE02F = {
+			isa = PBXGroup;
+			children = (
+				2A5A40D323CF7C5E000DE02F /* tews */,
+				2A5A40E623CF7C5F000DE02F /* tewsTests */,
+				2A5A40F123CF7C5F000DE02F /* tewsUITests */,
+				2A5A40D223CF7C5E000DE02F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A5A40D223CF7C5E000DE02F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A5A40D123CF7C5E000DE02F /* tews.app */,
+				2A5A40E323CF7C5F000DE02F /* tewsTests.xctest */,
+				2A5A40EE23CF7C5F000DE02F /* tewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A5A40D323CF7C5E000DE02F /* tews */ = {
+			isa = PBXGroup;
+			children = (
+				2A5A40D423CF7C5E000DE02F /* AppDelegate.swift */,
+				2A5A40D623CF7C5E000DE02F /* ViewController.swift */,
+				2A5A40D823CF7C5E000DE02F /* Assets.xcassets */,
+				2A5A40DA23CF7C5E000DE02F /* Main.storyboard */,
+				2A5A40DD23CF7C5E000DE02F /* Info.plist */,
+				2A5A40DE23CF7C5E000DE02F /* tews.entitlements */,
+			);
+			path = tews;
+			sourceTree = "<group>";
+		};
+		2A5A40E623CF7C5F000DE02F /* tewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A5A40E723CF7C5F000DE02F /* tewsTests.swift */,
+				2A5A40E923CF7C5F000DE02F /* Info.plist */,
+			);
+			path = tewsTests;
+			sourceTree = "<group>";
+		};
+		2A5A40F123CF7C5F000DE02F /* tewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A5A40F223CF7C5F000DE02F /* tewsUITests.swift */,
+				2A5A40F423CF7C5F000DE02F /* Info.plist */,
+			);
+			path = tewsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A5A40D023CF7C5E000DE02F /* tews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A5A40F723CF7C5F000DE02F /* Build configuration list for PBXNativeTarget "tews" */;
+			buildPhases = (
+				2A5A40CD23CF7C5E000DE02F /* Sources */,
+				2A5A40CE23CF7C5E000DE02F /* Frameworks */,
+				2A5A40CF23CF7C5E000DE02F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tews;
+			productName = tews;
+			productReference = 2A5A40D123CF7C5E000DE02F /* tews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A5A40E223CF7C5F000DE02F /* tewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A5A40FA23CF7C5F000DE02F /* Build configuration list for PBXNativeTarget "tewsTests" */;
+			buildPhases = (
+				2A5A40DF23CF7C5F000DE02F /* Sources */,
+				2A5A40E023CF7C5F000DE02F /* Frameworks */,
+				2A5A40E123CF7C5F000DE02F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A5A40E523CF7C5F000DE02F /* PBXTargetDependency */,
+			);
+			name = tewsTests;
+			productName = tewsTests;
+			productReference = 2A5A40E323CF7C5F000DE02F /* tewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A5A40ED23CF7C5F000DE02F /* tewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A5A40FD23CF7C5F000DE02F /* Build configuration list for PBXNativeTarget "tewsUITests" */;
+			buildPhases = (
+				2A5A40EA23CF7C5F000DE02F /* Sources */,
+				2A5A40EB23CF7C5F000DE02F /* Frameworks */,
+				2A5A40EC23CF7C5F000DE02F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A5A40F023CF7C5F000DE02F /* PBXTargetDependency */,
+			);
+			name = tewsUITests;
+			productName = tewsUITests;
+			productReference = 2A5A40EE23CF7C5F000DE02F /* tewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A5A40C923CF7C5E000DE02F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "RJ Varona";
+				TargetAttributes = {
+					2A5A40D023CF7C5E000DE02F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					2A5A40E223CF7C5F000DE02F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2A5A40D023CF7C5E000DE02F;
+					};
+					2A5A40ED23CF7C5F000DE02F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2A5A40D023CF7C5E000DE02F;
+					};
+				};
+			};
+			buildConfigurationList = 2A5A40CC23CF7C5E000DE02F /* Build configuration list for PBXProject "tews" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A5A40C823CF7C5E000DE02F;
+			productRefGroup = 2A5A40D223CF7C5E000DE02F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A5A40D023CF7C5E000DE02F /* tews */,
+				2A5A40E223CF7C5F000DE02F /* tewsTests */,
+				2A5A40ED23CF7C5F000DE02F /* tewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A5A40CF23CF7C5E000DE02F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5A40D923CF7C5E000DE02F /* Assets.xcassets in Resources */,
+				2A5A40DC23CF7C5E000DE02F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5A40E123CF7C5F000DE02F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5A40EC23CF7C5F000DE02F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A5A40CD23CF7C5E000DE02F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5A40D723CF7C5E000DE02F /* ViewController.swift in Sources */,
+				2A5A40D523CF7C5E000DE02F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5A40DF23CF7C5F000DE02F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5A40E823CF7C5F000DE02F /* tewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5A40EA23CF7C5F000DE02F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5A40F323CF7C5F000DE02F /* tewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A5A40E523CF7C5F000DE02F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A5A40D023CF7C5E000DE02F /* tews */;
+			targetProxy = 2A5A40E423CF7C5F000DE02F /* PBXContainerItemProxy */;
+		};
+		2A5A40F023CF7C5F000DE02F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A5A40D023CF7C5E000DE02F /* tews */;
+			targetProxy = 2A5A40EF23CF7C5F000DE02F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A5A40DA23CF7C5E000DE02F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A5A40DB23CF7C5E000DE02F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A5A40F523CF7C5F000DE02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A5A40F623CF7C5F000DE02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2A5A40F823CF7C5F000DE02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = tews/tews.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = tews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rj-varona.tews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2A5A40F923CF7C5F000DE02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = tews/tews.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = tews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rj-varona.tews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2A5A40FB23CF7C5F000DE02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = tewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "rj-varona.tewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tews.app/Contents/MacOS/tews";
+			};
+			name = Debug;
+		};
+		2A5A40FC23CF7C5F000DE02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = tewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "rj-varona.tewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tews.app/Contents/MacOS/tews";
+			};
+			name = Release;
+		};
+		2A5A40FE23CF7C5F000DE02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = tewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rj-varona.tewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = tews;
+			};
+			name = Debug;
+		};
+		2A5A40FF23CF7C5F000DE02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = tewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rj-varona.tewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = tews;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A5A40CC23CF7C5E000DE02F /* Build configuration list for PBXProject "tews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5A40F523CF7C5F000DE02F /* Debug */,
+				2A5A40F623CF7C5F000DE02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A5A40F723CF7C5F000DE02F /* Build configuration list for PBXNativeTarget "tews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5A40F823CF7C5F000DE02F /* Debug */,
+				2A5A40F923CF7C5F000DE02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A5A40FA23CF7C5F000DE02F /* Build configuration list for PBXNativeTarget "tewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5A40FB23CF7C5F000DE02F /* Debug */,
+				2A5A40FC23CF7C5F000DE02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A5A40FD23CF7C5F000DE02F /* Build configuration list for PBXNativeTarget "tewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5A40FE23CF7C5F000DE02F /* Debug */,
+				2A5A40FF23CF7C5F000DE02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A5A40C923CF7C5E000DE02F /* Project object */;
+}
